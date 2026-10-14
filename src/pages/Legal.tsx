@@ -64,7 +64,7 @@ export function Privacy() {
       </Sec>
       <Sec title="Iklan dan analitik">
         <p>
-          pela
+          kebijakan iklan ini dapat diperbarui sewaktu-waktu mengikuti perubahan layanan, teknologi periklanan, atau ketentuan yang berlaku. perubahan akan dipublikasikan pada halaman ini beserta tanggal pembaruan terbaru.
         </p>
       </Sec>
       <Sec title="Cache offline">
