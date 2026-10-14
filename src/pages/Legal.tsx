@@ -64,8 +64,7 @@ export function Privacy() {
       </Sec>
       <Sec title="Iklan dan analitik">
         <p>
-          Saat ini DevKit tidak memasang layanan iklan maupun analitik pihak ketiga. Jika di kemudian hari layanan seperti itu ditambahkan,
-          kebijakan ini akan diperbarui lebih dahulu dan mencantumkan data apa yang dikumpulkan.
+          pela
         </p>
       </Sec>
       <Sec title="Cache offline">
