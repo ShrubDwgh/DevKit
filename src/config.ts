@@ -24,12 +24,15 @@ export interface AdProvider {
 }
 
 /**
- * Konfigurasi slot iklan. Selama `enabled` false atau `provider` null, slot TIDAK ditampilkan di production.
- * Lihat README bagian "Mengaktifkan AdSlot" setelah provider iklan benar-benar tersedia.
- * `devPlaceholder` hanya menampilkan kerangka tata letak saat `npm run dev` (bukan iklan).
+ * Google AdSense diaktifkan melalui AdSlot.tsx.
+ * Provider tetap null karena AdSlot menangani AdSense secara langsung.
  */
-export const AD_CONFIG: { enabled: boolean; provider: AdProvider | null; devPlaceholder: boolean } = {
-  enabled: false,
+export const AD_CONFIG: {
+  enabled: boolean;
+  provider: AdProvider | null;
+  devPlaceholder: boolean;
+} = {
+  enabled: true,
   provider: null,
   devPlaceholder: false,
 };
